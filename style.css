@@ -1,0 +1,628 @@
+*{
+    box-sizing: border-box;
+}
+
+/* menu */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: whitesmoke;
+    text-align: center;
+    background-color: #d71532;
+}
+.tulisan h1{
+    color: white;
+}
+.navbar {
+    z-index: 1; 
+    overflow: hidden;
+    background-color: #f5821f;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    margin-bottom: 50px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: rgba(255,255,255,0.8);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+.navbar a:hover {
+    color: white;
+}
+.navbar .search-container {
+    float: right;
+}
+.navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+.navbar .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 100px;
+    margin-left: 5px;
+    background-color: #cc0404;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgba(255,255,255,0.8);
+}
+.navbar .search-container button:hover {
+    background-color: #d71532;
+    color: white;
+}
+.navbar .search-container input[type=text]:focus, button[type=submit]:focus{
+    outline: none;
+}
+/* akhir menu */
+
+/* index */
+.konten{
+    margin-left:10%;
+    margin-right:5%;
+}
+.jum{
+    margin-bottom: 290px;
+}
+.box{
+    width: 265px;
+    height: 370px;
+    position: relative;
+    margin: 0px 0px 30px 8px;
+    border: 1px solid #eceaea;
+    display: inline-block;
+    text-align: center;
+    padding-bottom:30px;
+}
+.box img{
+    margin-top: 10px;
+    margin-bottom: 0;
+    max-width: 243px;
+    max-height: 200px;
+    text-align:center;
+}
+.kolom #buy{
+    width: auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: solid 1px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    opacity: 0.9;
+}
+.kolom #buy:hover{
+    opacity: 1;
+}
+.kolom #liat{
+    width: auto;
+    padding: 10px 20px;
+    background-color: #3276b1;
+    border: solid 1px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    opacity: 0.9;
+}
+.kolom #liat:hover{
+    opacity: 1;
+}
+.kolom{
+    margin: 10px;
+    padding-bottom: 10px;
+ 
+}
+.kolom button{
+    width: auto;
+    border-radius: 4px;
+    border: solid 1px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+.kolom a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+/* akhir index */
+
+/* awal footer */
+.bawah{
+    margin-top: 100px;
+    width: 100%;
+} 
+.penutup{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+/* akhir footer */
+
+/*awal login*/
+.login{
+    text-align: center;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    width: 90%;
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #eceaea; 
+}
+.kolomlogin{
+    margin: 10px;
+}
+.login .kolomlogin input{
+    width: 250px;
+    padding: 10px;  
+}
+.login .kolomlogin input[type=submit]{
+    background-color: #3276b1;
+    border: none;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    cursor:pointer;
+    opacity: 0.9;
+}
+.login .kolomlogin input[type=submit]:hover{
+    opacity: 1;
+}
+.login .kolomlogin input[type=submit]:focus, input[type=password]:focus, input[type=email]:focus{
+    outline: none; 
+}
+/*akhir login*/
+
+/*awal daftar*/
+.kotakdaftar{
+    padding: 16px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #eceaea;
+    width:450px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+}
+.kotakdaftar  input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.kotakdaftar input[type=text]:focus, input[type=password]:focus ,textarea:focus, input[type=email]:focus {
+    outline: none;
+}
+.kotakdaftar hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+.daftarbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+.daftarbtn:hover {
+    opacity: 1;
+}
+/*akhir daftar*/
+
+/*awal checkout*/
+.container-checkout{
+    margin-left:auto;
+    margin-right:auto;
+    width:85%;
+}
+.table-checkout{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    font-size: 14px
+}
+.table-checkout th,td{
+    border-top: 1px solid #ddd;
+    padding: 10px;   
+}
+.table-checkout tr:hover {
+    background-color: #f5f5f5;
+}
+.row-checkout {
+    display:block; 
+}
+.row-checkout input[type=text]  {
+    cursor: not-allowed;
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+.kolom-checkout{
+    width: 355px;
+    padding: 6px 10px;
+    margin: 50px 10px 0px 10px;
+    border-radius: 7px;
+    align-content:center;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    height: 34px;
+    font-size: 14px  
+}
+.alamat-checkout{
+    margin:30px 10px 0 10px;
+    border-radius: 7px;
+}
+.kolom-checkout-alamat{
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.tombol-checkout{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    padding: 14px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    border:none;
+    opacity: 0.9;
+}
+.tombol-checkout:hover{
+    opacity: 1;
+}
+/*akhir checkout*/
+
+/* keranjang dan riwayat*/
+.kolom{
+    margin: 10px;
+}
+.kolom #bayar{
+    width: auto;
+    padding: 17px;
+    background-color: green;
+    border: solid 1px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+.kolom #lanjut{
+    width: auto;
+    padding: 17px;
+    background-color: #9900ff;
+    border: solid 1px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+table{
+    width: 100%;
+    background-color: transparent;
+}
+th{
+    text-align: left;
+}
+.bel{
+    width: 75%;
+    margin-bottom: 20px;
+}
+.bel > thead > tr > th,
+.bel > tbody > tr > th,
+.bel > tfoot > tr > th,
+.bel > thead > tr > td,
+.bel > tbody > tr > td,
+.bel > tfoot > tr > td{
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.bel > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+.bel > caption + thead > tr:first-child > th,
+.bel > colgroup + thead > tr:first-child > th,
+.bel > thead:first-child > tr:first-child > th,
+.bel > caption + thead > tr:first-child > td,
+.bel > colgroup + thead > tr:first-child > td,
+.bel > thead:first-child > tr:first-child > td {
+    border-top: 0;
+}
+.bel > tbody + tbody {
+    border-top: 2px solid #ddd;
+}
+.bel .bel {
+    background-color: #fff;
+}
+.bel-condensed > thead > tr > th,
+.bel-condensed > tbody > tr > th,
+.bel-condensed > tfoot > tr > th,
+.bel-condensed > thead > tr > td,
+.bel-condensed > tbody > tr > td,
+.bel-condensed > tfoot > tr > td {
+    padding: 5px;
+}
+.bel-bordered {
+    border: 1px solid #ddd;
+}
+.bel-bordered > thead > tr > th,
+.bel-bordered > tbody > tr > th,
+.bel-bordered > tfoot > tr > th,
+.bel-bordered > thead > tr > td,
+.bel-bordered > tbody > tr > td,
+.bel-bordered > tfoot > tr > td {
+    border: 1px solid #ddd;
+}
+.bel-bordered > thead > tr > th,
+.bel-bordered > thead > tr > td {
+    border-bottom-width: 2px;
+}
+.bel-striped > tbody > tr:nth-child(odd) > td,
+.bel-striped > tbody > tr:nth-child(odd) > th {
+    background-color: #f9f9f9;
+}
+.bel-hover > tbody > tr:hover > td,
+.bel-hover > tbody > tr:hover > th {
+    background-color: #f5f5f5;
+}
+.lanjut {
+    color: #fff;
+    text-decoration: none;
+    background-color: #6495ed;
+    border-color: #00bfff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-left: 161px;
+}
+.lanjut:hover,
+.lanjut:focus,
+.lanjut:active,
+.lanjut.active,
+.open .dropdown-toggle.lanjut {
+    color: #fff;
+    background-color: #4169e1;
+    border-color: #1e90ff;
+}
+.lanjut:active,
+.lanjut.active,
+.lanjut .dropdown-toggle.lanjut {
+    background-image: none;
+}
+.bayar {
+    color: #fff;
+    text-decoration: none;
+    background-color: #3cb371;
+    border-color: #32cd32;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+.bayar:hover,
+.bayar:focus,
+.bayar:active,
+.bayar.active,
+.open .dropdown-toggle.bayar {
+    color: #fff;
+    background-color: #2e8b57;
+    border-color: #008000;
+}
+.bayar:active,
+.bayar.active,
+.bayar .dropdown-toggle.bayar {
+    background-image: none;
+}
+.batal {
+    color: #fff;
+    text-decoration: none;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    /* margin-right: 5px; */
+}
+.batal:hover,
+.batal:focus,
+.batal:active,
+.batal.active,
+.open .dropdown-toggle.batal {
+    color: #fff;
+    background-color: #d2322d;
+    border-color: #ac2925;
+}
+.batal:active,
+.batal.active,
+.open .dropdown-toggle.batal {
+    background-image: none;
+}
+.oke {
+    color: #fff;
+    text-decoration: none;
+    background-color: #369776;
+    border-color: #2e8165;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    /* margin-right: 5px; */
+}
+.oke:hover,
+.oke:focus,
+.oke:active,
+.oke.active,
+.open .dropdown-toggle.oke {
+    color: #fff;
+    background-color: #276c54;
+    border-color: #1f5643;
+}
+.oke:active,
+.oke.active,
+.open .dropdown-toggle.batal {
+    background-image: none;
+}
+.ctk {
+    color: #fff;
+    text-decoration: none;
+    background-color: #bc8862;
+    border-color: #a97a58;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+.ctk:hover,
+.ctk:focus,
+.ctk:active,
+.ctk.active,
+.open .dropdown-toggle.ctk {
+    color: #fff;
+    background-color: #966c4e;
+    border-color: #835f44;
+}
+.ctk:active,
+.ctk.active,
+.open .dropdown-toggle.ctk {
+    background-image: none;
+}
+/* akhir keranjang dan riwayat */
+
+/*pembayaran*/
+.kotakpembayaran{
+    padding: 16px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid #eceaea;
+    width:450px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+}
+.kotakpembayaran  input[type=text], input[type=number]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.kotakpembayaran input[type=text]:focus, input[type=number]:focus, input[type=file]:focus {
+    outline: none;
+}
+.kotakpembayaran hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.bayarbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+.bayarbtn:hover {
+    opacity: 1;
+}
+
